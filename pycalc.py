@@ -4,6 +4,7 @@ def main(args):
     x = int(args[0])
     y = int(args[2])
     opp = args[1]
+    print(x,opp,y)
     if opp == "+":
         print(x+y)
     elif opp == "-":
@@ -11,9 +12,11 @@ def main(args):
     elif opp == "/":
         print(x/y)
     else:
-        print(x*y)
-    print(x,opp,y)
+        a=0
+        for _ in range(y):
+            a=x+a
+            print(a)
 
 
-main([1,"+",2])
+main([2,"*",4])
 
