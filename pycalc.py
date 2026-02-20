@@ -10,6 +10,8 @@ def main(args):
         print(x-y)
     elif opp == "/":
         print(x/y)
+    else:
+        print(x*y)
     print(x,opp,y)
 
 
