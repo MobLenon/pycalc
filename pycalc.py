@@ -8,6 +8,8 @@ def main(args):
         print(x+y)
     elif opp == "-":
         print(x-y)
+    elif opp == "/":
+        print(x/y)
     print(x,opp,y)
 
 
