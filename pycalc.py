@@ -6,5 +6,10 @@ def main(args):
     opp = args[1]
     if opp == "+":
         print(x+y)
+    elif opp == "-":
+        print(x-y)
     print(x,opp,y)
+
+
+main([1,"+",2])
 
